@@ -1,19 +1,29 @@
 <!doctype html>
-<html lang="en-us">
+<html lang="en">
 <head>
-  <title>blackhills.dev</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/butler">
-  <style>  
-	  html {display:table; width:100vw; height:100vh; background-color:#030; color:#fc9; font-size:10vw; font-family:'ButlerBold'; font-weight:normal; font-style:normal;}
-	  body {display:table-cell; text-align:center; vertical-align:middle;}
-	  div {background-color:#020; display:inline-block; vertical-align:middle; padding:1rem; border:solid 1px #c96; position:relative; padding-right:1.5rem; left:-0.5rem;}
-	  span {display:block; position:absolute; padding:0 0.5rem; line-height:2rem; background-color:#fc9; color:#030; top:50%; margin-top:-1rem; left:100%; margin-left:-1rem; font-size:50%; font-family:'ButlerBold';}
-  </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>blackhills.dev</title>
+<style>
+body {margin:0;}
+#logo {background-color:#020; overflow:hidden; width:100vw; height:100vh; position:relative; color:#fc9}
+#hill-10 {position:absolute; border-radius:100%; background-color:#030; width:100%; height:100%; top:0; left:50%;}
+#hill-20 {position:absolute; border-radius:100%; background-color:#040; width:100%; height:100%; top:0; left:-50%; margin-top:60px}
+#hill-30 {position:absolute; border-radius:100%; background-color:#050; width:150%; height:150%; top:25%; left:-25%;}
+#hill-40 {position:absolute; border-radius:100%; background-color:#060; width:200%; height:200%; top:50%; left:0; margin-top:60px}
+#tags {position:absolute; top:0; left:-1.5vw; width:100%; height:100%; font-size:30vw; text-align:center; line-height:100vh; font-weight:bold; letter-spacing:-3vw;}
+</style>
 </head>
 <body>
-	<div>blackhills<span>.dev</span></div>
+<div id="logo">
+	<div id="hill-10"></div>
+	<div id="hill-20"></div>
+	<div id="hill-30"></div>
+	<div id="hill-40"></div>
+	<div id="tags">
+		<span>&lt;</span>
+		<span>/</span>
+		<span>&gt;</span>
+	</div>
+</div>
 </body>
 </html>
-<!-- added via repl.it -->
